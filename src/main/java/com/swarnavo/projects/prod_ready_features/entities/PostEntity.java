@@ -2,10 +2,12 @@ package com.swarnavo.projects.prod_ready_features.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "posts")
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class PostEntity {
